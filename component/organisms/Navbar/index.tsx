@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import Menu from './Menu';
 
 export default function Navbar() {
@@ -30,7 +31,7 @@ export default function Navbar() {
               <li className="nav-item my-auto">
                 <a
                   className="btn btn-sign-in d-flex justify-content-center ms-lg-2 rounded-pill"
-                  href="./src/sign-in.html"
+                  href="/signin"
                   role="button"
                 >
                   Sign In

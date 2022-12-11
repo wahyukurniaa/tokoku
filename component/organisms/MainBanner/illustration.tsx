@@ -23,8 +23,7 @@ export default function Illustration() {
                 </p>
               </div>
             </div>
-            <div className="d-flex gap-2">
-              <Image src="/icon/star.svg" width={24} height={22} alt="" />
+            <div className="d-flex gap-2 justify-content-center">
               <Image src="/icon/star.svg" width={24} height={22} alt="" />
               <Image src="/icon/star.svg" width={24} height={22} alt="" />
               <Image src="/icon/star.svg" width={24} height={22} alt="" />
